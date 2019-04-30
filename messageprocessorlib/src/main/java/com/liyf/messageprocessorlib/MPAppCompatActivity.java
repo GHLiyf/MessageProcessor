@@ -1,12 +1,11 @@
 package com.liyf.messageprocessorlib;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 
-public abstract class MPActivity extends Activity implements Handler.Callback {
-
+public abstract  class MPAppCompatActivity extends AppCompatActivity implements Handler.Callback {
     public static Handler RECEIVERMESSAGE;
     private Handler handler = new Handler(this);
     @Override
