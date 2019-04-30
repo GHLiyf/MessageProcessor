@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 
-public abstract class receiver extends BroadcastReceiver implements Handler.Callback {
+public abstract class MPBroadcastReceiver extends BroadcastReceiver implements Handler.Callback {
 
 
     public static Handler RECEIVERMESSAGE;
